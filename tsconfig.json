@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es5",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  //  "include": [
+  //    "D3test/**/*"
+  //  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
